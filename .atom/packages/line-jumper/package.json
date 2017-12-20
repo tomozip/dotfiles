@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+        "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117716-40363-1nwszr9.ovuooxyldi"
+    ]
+  ],
+  "_from": "../d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+  "_id": "line-jumper@0.14.1",
+  "_inCache": true,
+  "_location": "/line-jumper",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+    "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+  "_shasum": "b22a9562c9616b537e92b205af2523c47f7bb6ca",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-40363-st6ix1.n2p292uik9/package.tgz",
+  "_where": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117716-40363-1nwszr9.ovuooxyldi",
+  "bugs": {
+    "url": "https://github.com/benogle/line-jumper/issues"
+  },
+  "dependencies": {},
+  "description": "Move the cursor and select 10 lines at a time",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/benogle/line-jumper#readme",
+  "license": "MIT",
+  "main": "./lib/line-jumper",
+  "name": "line-jumper",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# Line Jumper package\n\nAdds commands to move your cursor and select 10 lines at a time in Atom.\n\nThis packages adds 4 commands available via the following keybindings:\n\n  * `alt-up` to move the cursor up 10 lines\n  * `alt-down` to move the cursor down 10 lines\n  * `alt-shift-up` to select up 10 lines\n  * `alt-shift-down` to select down 10 lines\n\nYou can change the number of lines jumped via the `line-jumper.numberOfLines`\nconfig setting, defaults to 10.\n\nIn action:\n\n![omgwhoa][gif]\n\nYour head just exploded didn't it? :grinning: :boom:\n\nThis is a clinically proven 1000% productivity boost, I promise. No, really.\n\n[gif]: https://f.cloud.github.com/assets/69169/2274551/db5ea7d6-9f1d-11e3-90e7-a66d0e09a02c.gif\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benogle/line-jumper.git"
+  },
+  "version": "0.14.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/line-jumper.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

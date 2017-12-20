@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+        "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117716-36070-eakufh.dovh8y3nmi"
+    ]
+  ],
+  "_from": "../d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+  "_id": "useful-context-menu@0.6.1",
+  "_inCache": true,
+  "_location": "/useful-context-menu",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+    "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+  "_shasum": "6ad93d836762403baa5a01ffd6ea08164e37abab",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-36070-8s4jh1.leu0ckrzfr/package.tgz",
+  "_where": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117716-36070-eakufh.dovh8y3nmi",
+  "bugs": {
+    "url": "https://github.com/alefragnani/atom-useful-context-menu/issues"
+  },
+  "dependencies": {},
+  "description": "A set of useful context menu actions",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/alefragnani/atom-useful-context-menu#readme",
+  "keywords": [
+    "useful",
+    "context",
+    "menu",
+    "copy",
+    "path",
+    "clipboard",
+    "open",
+    "terminal"
+  ],
+  "license": "MIT",
+  "main": "./lib/useful-context-menu",
+  "name": "useful-context-menu",
+  "optionalDependencies": {},
+  "readme": "# Useful Context Menu Package for Atom\n\nA set of useful context menu actions for Atom\n\n## Available Actions\n\nBy now, I have added a few actions\n\n#### Copy to Clipboard\n\n- Copy File Path\n- Copy Filename\n- Copy Folder Path\n\n#### Open In\n\n- Open In File Manager\n- Open In Terminal\n\n![Useful Context Menu](https://raw.githubusercontent.com/alefragnani/atom-useful-context-menu/master/screenshot.png)\n\n## Participate\n\nIf you have any idea of other useful actions to be added, create an issue :)\n\n## License\n\n[MIT](LICENSE.md) &copy; Alessandro Fragnani\n\n---\n\n[![Paypal Donations](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=EP57F3B6FXKTU&lc=US&item_name=Alessandro%20Fragnani&item_number=atom%20plugins&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) a :coffee: if you enjoy using this package :wink:\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alefragnani/atom-useful-context-menu.git"
+  },
+  "version": "0.6.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/useful-context-menu.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,12 @@
+alias ls="ls -GF"
+alias ll='ls -lFG'
+alias l='ls -lFG'
+alias la='ls -lFGa'
+alias vi='vim'
+alias gs='git status'
+alias gd='dirs -v; echo -n "select number: "; read newdir; cd +"$newdir"'
+alias brake='bundle exec rake'
+alias rm='rm -i'
+alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
+alias cap2='cap _2.15.5_'
+alias relogin='exec $SHELL -l'

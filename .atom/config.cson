@@ -1,3 +1,152 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "5d8ef595-6f11-44b5-bfc9-177087a73518"
+  "atom-clock":
+    dateFormat: "MMMMDo(dd) -- H:mm --"
+    locale: "ja"
+  "atom-css-comb":
+    commonConfigs: "/Users/tomokishimada/dev/setting/.csscomb.json"
+  "atom-material-ui":
+    colors:
+      abaseColor: "#607d8b"
+      predefinedColor: "Blue Grey"
+    fonts: {}
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "atom-minify":
+    cssMinifier: "clean-css"
+  "atom-package-deps":
+    ignored: [
+      "linter-ui-default"
+    ]
+  "atom-runner": {}
+  "autocomplete-ruby":
+    rsensePath: "/Users/tomokishimada/.rbenv/shims/rsense"
+  "browser-plus":
+    currentFile: false
+    homepage: "http://127.0.0.1:3000/"
+  "circle-ci": {}
+  core:
+    disabledPackages: [
+      "autoprefixer"
+      "ask-stack"
+      "open-recent"
+      "linter-erb"
+      "browser-plus"
+      "color-picker"
+      "bookmarks"
+      "autocomplete-ruby"
+      "atom-css-clean"
+      "linter-jsonlint"
+      "pretty-json"
+      "git-control"
+      "markdown-preview"
+      "atom-minify"
+      "circle-ci"
+      "terminal-plus"
+      "rails-routes"
+      "hyperclick"
+      "linter-haml"
+      "linter-ruby"
+      "japanese-menu"
+      "rails-db-scheme"
+      "git-log"
+      "editor-background"
+      "language-vue"
+      "language-vue-component"
+      "language-haml"
+      "vue2-autocomplete"
+      "react"
+      "linter-slim"
+      "sass-autocompile"
+      "imdone-atom"
+      "linter-scss-lint"
+      "docblockr"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-minify"
+      "rails-transporter"
+      "git-plus"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "monokai"
+    ]
+  editor:
+    fontFamily: "'Ricty Diminished'"
+    fontSize: 15
+    invisibles: {}
+    lineHeight: 1.2
+    showInvisibles: true
+  "editor-background":
+    image:
+      backgroundSize: "100%"
+      overlayColor: "#000000"
+      style: "background:radial-gradient(rgba(0,0,0,0.7) 30%,rgba(0,0,0,0.75));"
+      url: "/Users/tomokishimada/Pictures/壁紙/hd/forest_trees_fog_110485_3840x2160.jpg"
+    other: {}
+    text:
+      opacity: 0
   "exception-reporting":
-    userId: "dfac1fee-3f30-4ed2-967a-0ed91906f189"
+    userId: "a0d16ada-859a-4db6-8c68-6f72afa8b43e"
+  "git-plus":
+    general:
+      splitPane: "Right"
+  "goto-definition": {}
+  jshint:
+    supportLintingJsx: true
+  jumpy:
+    useHomingBeaconEffectOnJumps: false
+  "line-jumper": {}
+  linter: {}
+  "linter-eslint":
+    globalNodePath: "usr/local"
+  "linter-haml":
+    executablePath: "/Users/tomokishimada/.rbenv/versions/2.4.1/bin/haml_lint"
+  "linter-rubocop":
+    command: "/Users/tomokishimada/.rbenv/shims/rubocop"
+    disableWhenNoConfigFile: true
+  "linter-sass-lint":
+    configFile: "/Users/tomokishimada/dev/setting/sass-lint.yml"
+    globalSassLint: true
+  "linter-scss-lint":
+    executablePath: "/Users/tomokishimada/.rbenv/shims/scss-lint"
+  "linter-ui-default":
+    panelHeight: 109
+    statusBarRepresents: "Current File"
+  "markdown-preview-plus":
+    breakOnSingleNewline: true
+  "one-dark-ui":
+    hideDockButtons: true
+  "platformio-ide-terminal":
+    style:
+      theme: "pro"
+  "rails-open-rspec":
+    splitPane: false
+  rspec:
+    command: "bundle exec rspec"
+  "rubocop-auto-correct":
+    debugMode: true
+  "ruby-block":
+    highlightLineNumber: true
+  "sass-autocompile":
+    showCompileSassItemInTreeViewContextMenu: false
+  "spell-check":
+    locales: [
+      "en-US"
+    ]
+  "status-bar": {}
+  "terminal-plus":
+    style:
+      theme: "pro"
+    toggles:
+      autoClose: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

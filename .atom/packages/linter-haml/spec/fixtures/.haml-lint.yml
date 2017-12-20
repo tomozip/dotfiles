@@ -1,0 +1,5 @@
+linters:
+  RuboCop:
+    enabled: true
+    ignored_cops:
+      - Layout/TrailingBlankLines

@@ -15,10 +15,10 @@
 #
 # 'atom-workspace':
 #   'ctrl-shift-p': 'core:move-up'
-#   'ctrl-p': 'core:move-down'
+#   'ctrl-p': 'core:move-down'≈
 #
 # You can find more information about keymaps in these guides:
-# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings
 # * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
 #
 # If you're having trouble with your keybindings not working, try the
@@ -29,4 +29,122 @@
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
-# http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'atom-workspace atom-text-editor:not([mini])':
+  'shift-cmd-L': 'unset!'
+  'cmd-j': 'unset!'
+  'cmd-]': 'unset!'
+'.platform-darwin .find-and-replace':
+  'alt-cmd-c': 'unset!'
+  'alt-cmd-s': 'unset!'
+'.platform-darwin atom-text-editor':
+  'shift-cmd-G': 'unset!'
+  'shift-cmd-A': 'unset!'
+  'alt-cmd-enter': 'unset!'
+  'ctrl-cmd-m': 'unset!'
+  'ctrl-o': 'goto-definition:go'
+'atom-workspace':
+  'alt-cmd-t': 'imdone-atom:tasks'
+  'alt-j': 'unset!'
+  'shift-cmd-M': 'merge-conflicts:detect'
+  'alt-cmd-c': 'rails-transporter:open-controller'
+  'alt-cmd-f': 'rails-transporter:open-factory'
+  'alt-cmd-v': 'rails-transporter:open-view'
+  'alt-cmd-m': 'rails-transporter:open-model'
+  'alt-cmd-n': 'rails-transporter:open-partial-template'
+  'alt-cmd-s': 'unset!'
+'.platform-darwin atom-text-editor:not([mini])':
+  'cmd-.': 'clipboard-plus:toggle'
+'.platform-darwin atom-workspace':
+  'shift-cmd-C': 'unset!'
+  'ctrl-`': 'unset!'
+  'shift-cmd-K': 'unset!'
+  'shift-cmd-T': 'platformio-ide-terminal:new'
+  'ctrl-space': 'platformio-ide-terminal:focus'
+  'shift-cmd-`': 'platformio-ide-terminal:toggle'
+  'ctrl-enter': 'unset!'
+'.platform-darwin':
+  'shift-cmd-A a': 'unset!'
+  'shift-cmd-R': 'unset!'
+  'alt-cmd-f': 'unset!'
+  'ctrl-0': 'unset!:toggle-focus'
+  'ctrl-,': 'tree-view:toggle'
+  'ctrl-9': 'tree-view:toggle-focus'
+  'ctrl-enter': 'tree-view:open-selected-entry'
+  'ctrl-cmd-m': 'git-plus:menu'
+  'shift-cmd-G': 'git-plus:status'
+  'shift-cmd-A': 'git-plus:add-all'
+  'shift-cmd-C': 'git-plus:commit'
+  'shift-cmd-L': 'git-plus:log'
+  'ctrl-cmd-p': 'project-manager:list-projects'
+  'cmd-.': 'unset!'
+'atom-text-editor[data-grammar~="ruby"]':
+  'shift-cmd-R': 'rubocop-auto-correct:current-file'
+'atom-text-editor':
+  'alt-cmd-r': 'rspec:run'
+  'alt-cmd-o': 'unset!'
+  'ctrl-space': 'unset!'
+  'ctrl-k': 'unset!'
+  'ctrl-cmd-right': 'unset!'
+  'ctrl-cmd-left': 'unset!'
+  'ctrl-m': 'unset!'
+  'ctrl-.': 'unset!'
+  'alt-cmd-s': 'rails-open-rspec:open-rspec-file'
+  'ctrl-n': 'editor:move-to-beginning-of-word'
+  'ctrl-;': 'editor:move-to-end-of-word'
+  'ctrl-cmd-h': 'editor:move-to-first-character-of-line'
+  'ctrl-cmd-l': 'editor:move-to-end-of-screen-line'
+  'ctrl-cmd-y': 'editor:select-to-first-character-of-line'
+  'ctrl-cmd-o': 'editor:select-to-end-of-line'
+  'ctrl-cmd-/': 'hey-pane:toggle-focus-of-active-pane'
+  'ctrl-i': 'line-jumper:move-up'
+  'ctrl-u': 'line-jumper:move-down'
+  'ctrl-b': 'expand-region:expand'
+'body':
+  'alt-cmd-tab': 'window:focus-next-pane'
+  'alt-shift-cmd': 'window:move-active-item-to-pane-on-right'
+  'ctrl-j': 'core:move-down'
+  'ctrl-k': 'core:move-up'
+  'ctrl-h': 'core:move-left'
+  'ctrl-l': 'core:move-right'
+  'alt-cmd-s': 'unset!'
+  'cmd-k alt-cmd-w': 'unset!'
+  'ctrl-b': 'unset!'
+  'ctrl-down': 'unset!'
+  'ctrl-f': 'unset!'
+  'ctrl-n': 'unset!'
+  'ctrl-p': 'unset!'
+  'ctrl-up': 'unset!'
+  'shift-cmd-T': 'unset!'
+  'ctrl-cmd-right': 'pane:move-item-right'
+  'ctrl-cmd-left': 'pane:move-item-left'
+  'ctrl-w': 'pane:reopen-closed-item'
+  'ctrl-cmd-j': 'pane:show-previous-item'
+  'ctrl-cmd-k': 'pane:show-next-item'
+  'ctrl-cmd-enter': 'window:focus-next-pane'
+  'shift-enter': 'window:focus-next-pane'
+  'cmd-]': 'pane:split-right-and-move-active-item'
+'atom-text-editor:not([mini])':
+  'ctrl-m': 'editor:delete-line'
+  'ctrl-f': 'linter-eslint:fix-file'
+'atom-workspace atom-text-editor:not(.mini)':
+  'ctrl-enter': 'jumpy:toggle'
+  'shift-enter': 'unset!'
+'atom-workspace atom-text-editor.jumpy-jump-mode':
+  'ctrl-enter': 'jumpy:clear'
+  'shift-enter': 'unset!'
+'.workspace':
+  'ctrl-9': 'unset!'
+  'ctrl-0': 'github:toggle-git-tab-focus'
+  'ctrl-.': 'github:toggle-git-tab'
+  'ctrl-shift-,': 'github:toggle-git-tab-focus'
+'.platform-darwin .tree-view':
+  'ctrl-m': 'tree-view:collapse-directory'
+'.github-StagingView':
+  'a': 'github:stage-all-changes'
+'atom-text-editor[data-grammar~="ruby"]:not([mini])':
+  'ctrl-g b': 'unset!'
+  # 'ctrl-g b': 'ruby-block:go-to-matching-line'
+'.tree-view':
+  'c': 'tree-view:copy-full-path'

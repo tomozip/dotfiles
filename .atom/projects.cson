@@ -1,0 +1,107 @@
+[
+  {
+    title: "Finc Store"
+    group: "finc"
+    paths: [
+      "/Users/tomokishimada/Services/finc_store"
+    ]
+  }
+  {
+    title: "Online Works"
+    paths: [
+      "/Users/tomokishimada/Services/online_works"
+    ]
+  }
+  {
+    title: "Form"
+    group: "training"
+    paths: [
+      "/Users/tomokishimada/training_projects/form"
+    ]
+  }
+  {
+    title: "Smart Errand"
+    group: "mafia"
+    paths: [
+      "/Users/tomokishimada/my_prod/smart_errand"
+    ]
+  }
+  {
+    title: "Playground"
+    group: "test"
+    paths: [
+      "/Users/tomokishimada/test/playground"
+    ]
+  }
+  {
+    title: "Health Analysis"
+    group: "finc"
+    paths: [
+      "/Users/tomokishimada/Services/health_analysis"
+    ]
+  }
+  {
+    title: "Try Media Client"
+    group: "finc"
+    paths: [
+      "/Users/tomokishimada/Services/try_media_client"
+    ]
+  }
+  {
+    title: "React Training"
+    group: "training"
+    paths: [
+      "/Users/tomokishimada/dev/practice/react_training"
+      "/Users/tomokishimada/dev/hackathon/AutoSchedulerClient"
+    ]
+  }
+  {
+    title: "Walking Events"
+    group: "finc"
+    paths: [
+      "/Users/tomokishimada/Services/walking_events"
+    ]
+  }
+  {
+    title: "Finc Point"
+    group: "finc"
+    paths: [
+      "/Users/tomokishimada/Services/finc_point"
+    ]
+  }
+  {
+    title: "Auto Scheduler Client"
+    group: "hackathon"
+    paths: [
+      "/Users/tomokishimada/dev/hackathon/AutoSchedulerClient"
+    ]
+  }
+  {
+    title: "Finc App Web Client"
+    group: "finc"
+    paths: [
+      "/Users/tomokishimada/Services/finc_app_web_client"
+    ]
+  }
+  {
+    title: "Requl Mobile"
+    group: "finc"
+    paths: [
+      "/Users/tomokishimada/Services/requl_mobile"
+    ]
+  }
+  {
+    title: "Auto Scheduler Server"
+    group: "hackathon"
+    paths: [
+      "/Users/tomokishimada/dev/hackathon/AutoSchedulerServer"
+    ]
+  }
+  {
+    title: "Fi Chat Client"
+    group: "finc"
+    paths: [
+      "/Users/tomokishimada/Services/FiChatClient"
+    ]
+  }
+]

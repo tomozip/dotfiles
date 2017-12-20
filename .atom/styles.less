@@ -24,9 +24,133 @@
 atom-text-editor {
   // color: white;
   // background-color: hsl(180, 24%, 12%);
+  .jumpy-label {
+      // Regular labels
+      background-color: rgba(255, 255, 255, 0.72);
+      color: rgb(167, 0, 0);
+      &.high-contrast {
+          // High Contrast labels (activated in settings)
+          background-color: green;
+      }
+  }
+}
+
+.icon-git-branch::before, span.branch-label {
+  color: rgb(255, 143, 181);
 }
 
 // style UI elements inside atom-text-editor
 atom-text-editor .cursor {
   // border-color: red;
+}
+
+:host, atom-text-editor, atom-text-editor.editor {
+  .line-number.ruby-block-highlight {
+    background-color: #00b8d4;
+  }
+
+  .highlights {
+    .ruby-block-highlight .region {
+      background-color: fade(#b2ebf2, 25%);
+    }
+  }
+}
+
+.tab-bar {
+  height: 3em;
+}
+
+.tab-bar .tab {
+  line-height: 3em;
+}
+
+html {
+  font-size: 13px;
+}
+
+atom-text-editor[data-grammar="source gfm"],
+atom-text-editor[data-grammar="source gfm"].editor {
+    font-family: "Gill Sans";
+}
+
+.atom-clock {
+  color: #64B5F6;
+  font-size: 14px;
+}
+
+@invisible-color: rgba(197, 200, 198, 0.4);
+
+atom-text-editor.editor {
+
+  .indent-guide {
+    color: @invisible-color;
+  }
+
+  .invisible-character {
+    color: @invisible-color;
+  }
+
+}
+
+.select-list ol.list-group li.two-lines .secondary-line, .select-list ol.list-group li.two-lines .secondary-line {
+	color: rgba(248, 248, 242, 0.5);
+}
+
+.list-group li:not(.list-nested-item).selected .character-match, .list-tree li:not(.list-nested-item).selected .character-match, .list-group li.list-nested-item.selected > .list-item .character-match, .list-tree li.list-nested-item.selected > .list-item .character-match {
+	color: #ef5c9d;
+}
+
+.list-group li:not(.list-nested-item), .list-tree li:not(.list-nested-item), .list-group li.list-nested-item > .list-item, .list-tree li.list-nested-item > .list-item {
+	color: rgba(248, 248, 242, 0.85)
+}
+
+.fuzzy-finder .list-group .character-match {
+  color: #ef5c9d;
+  font-weight: normal;
+}
+
+atom-text-editor .gutter {
+  min-width: 0em;
+}
+
+.list-tree li.list-nested-item > .list-item {
+  line-height: 23px;
+  font-size: 13px;
+}
+.tree-view > ol {
+  padding-top: 5px;
+}
+
+.list-group .selected::before, .list-tree .selected::before {
+  line-height: 23px;
+  height: 23px;
+}
+
+.list-tree li:not(.list-nested-item) {
+  line-height: 23px;
+}
+
+.list-tree.has-collapsable-children .list-nested-item > .list-item::before {
+  margin-right: 3px;
+}
+
+.list-group .icon::before, .list-tree .icon::before {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+}
+
+.list-group li:not(.list-nested-item).selected.status-added, .list-tree li:not(.list-nested-item).selected.status-added, .list-group li.list-nested-item.selected.status-added > .list-item, .list-tree li.list-nested-item.selected.status-added > .list-item {
+  color: rgb(90, 181, 166);
+}
+
+.list-group li:not(.list-nested-item).status-added, .list-tree li:not(.list-nested-item).status-added, .list-group li.list-nested-item.status-added > .list-item, .list-tree li.list-nested-item.status-added > .list-item {
+  color: rgb(90, 181, 166);
+}
+
+atom-pane-container atom-pane .item-views > * {
+  padding-top: 8px;
+}
+
+.list-tree.has-collapsable-children .list-nested-item > .list-tree > li, .list-tree.has-collapsable-children .list-nested-item > .list-group > li {
+  padding-left: 19px;
 }

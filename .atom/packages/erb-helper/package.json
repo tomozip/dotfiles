@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+        "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117315-30804-1vvo6uo.vtrt7hw7b9"
+    ]
+  ],
+  "_from": "../d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+  "_id": "erb-helper@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/erb-helper",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+    "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+  "_shasum": "0be35d1c6067e969a386472d7f33f9b2167a7e5d",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117315-30804-8ooaa8.mqj6vfgvi/package.tgz",
+  "_where": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117315-30804-1vvo6uo.vtrt7hw7b9",
+  "activationCommands": {
+    "atom-workspace": [
+      "erb-helper:output",
+      "erb-helper:eval",
+      "erb-helper:comment",
+      "erb-helper:end",
+      "erb-helper:if",
+      "erb-helper:else",
+      "erb-helper:elsif"
+    ]
+  },
+  "author": {
+    "name": "Mike George",
+    "url": "https://github.com/migeorge"
+  },
+  "bugs": {
+    "url": "https://github.com/migeorge/erb-helper/issues"
+  },
+  "dependencies": {},
+  "description": "ERB Helper makes it easy to insert and wrap ERB tags with Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/migeorge/erb-helper#readme",
+  "license": "MIT",
+  "main": "./lib/erb-helper",
+  "name": "erb-helper",
+  "optionalDependencies": {},
+  "readme": "# ERB Helper | Atom Package\n\nERB Helper makes it easy to insert and wrap ERB tags with Atom.\n\n## Usage\n\n| Command Name | ERB Value   | Key Binding            |\n|--------------|-------------|------------------------|\n| ERB Output   | <%=  %>     | ```CTRL + SHIFT + .``` |\n| ERB Eval     | <%  %>      | ```CTRL + .```         |\n| ERB Comment  | <%#  %>     | ```CTRL + SHIFT + 3``` |\n| ERB End      | <% end %>   | ```CTRL + 8```         |\n| ERB If       | <% if %>    | ```CTRL + 7```         |\n| ERB Else     | <% else %>  | ```CTRL + 6```         |\n| ERB Elsif    | <% elsif %> | ```CTRL + SHIFT + 6``` |\n\nYou can also find the commands in the Right Click context menu.\n\nIf you select some text before executing a command the text will be wrapped with the\nappropriate tag.\n\n## Installation\n\nInstall from the Atom Package manager or the command line:\n\n\n```$ apm install erb-helper```\n\n## Contributions\n\nContributions are welcome, just create a pull request.\n\nIf there is a feature that you'd like to see added to the package\njust open a new issue.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migeorge/erb-helper.git"
+  },
+  "version": "1.1.0"
+}

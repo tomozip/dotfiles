@@ -1,0 +1,408 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+        "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117716-37427-zu01w9.a09x0w9udi"
+    ]
+  ],
+  "_from": "../d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+  "_id": "rails-db-scheme@0.2.0",
+  "_inCache": true,
+  "_location": "/rails-db-scheme",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+    "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+  "_shasum": "92df55002cdecb7cb7a55d05ee37f9c1232bf9e5",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117716-37427-hsc6nq.6jugqr529/package.tgz",
+  "_where": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117716-37427-zu01w9.a09x0w9udi",
+  "activationCommands": {
+    "atom-workspace": "rails-db-scheme:open-scheme"
+  },
+  "activationHooks": [
+    "language-ruby:grammar-used",
+    "language-ruby-on-rails:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/aki77/atom-rails-db-scheme/issues"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.2.0",
+    "fs-plus": "^3.0.0",
+    "inflection": "^1.12.0"
+  },
+  "description": "Autocomplete+ provider for Rails db schema",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aki77/atom-rails-db-scheme#readme",
+  "keywords": [
+    "rails",
+    "autocomplete",
+    "activerecord"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "rails-db-scheme",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# Rails DB Scheme\n\nAutocomplete+ provider for Rails db schema.\n\n## Features\n\n**Autocomplete activerecord**\n\n![A screenshot](https://i.gyazo.com/5dc09fb3ac9d18881e6d7e32d244698c.gif)\n\n**Open schema file depending on current context**\n\n![A screenshot](https://i.gyazo.com/7657febab1170ca47deaac26a577de4c.gif)\n\n## Settings\nSet Rails syntax as default.\n```coffeescript\n\"*\":\n  core:\n    customFileTypes:\n      \"source.ruby.rails\": [\n        \"rb\"\n      ]\n```\n\n## Keymap\n\nNo keymap by default.\n\nedit `~/.atom/keymap.cson`\n\n```coffeescript\n'atom-workspace':\n  'ctrl-r s': 'rails-db-scheme:open-scheme'\n```\n\n## TODO\n\n- [ ] Multi-Folder Projects\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aki77/atom-rails-db-scheme.git"
+  },
+  "version": "0.2.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "async",
+        "version": "1.5.2",
+        "path": "node_modules/async/lib/async.js"
+      },
+      {
+        "name": "atom-select-list",
+        "version": "0.2.0",
+        "path": "node_modules/atom-select-list/src/select-list-view.js"
+      },
+      {
+        "name": "balanced-match",
+        "version": "1.0.0",
+        "path": "node_modules/balanced-match/index.js"
+      },
+      {
+        "name": "brace-expansion",
+        "version": "1.1.8",
+        "path": "node_modules/brace-expansion/index.js"
+      },
+      {
+        "name": "concat-map",
+        "version": "0.0.1",
+        "path": "node_modules/concat-map/index.js"
+      },
+      {
+        "name": "etch",
+        "version": "0.9.5",
+        "path": "node_modules/etch/lib/index.js"
+      },
+      {
+        "name": "fs-plus",
+        "version": "3.0.1",
+        "path": "node_modules/fs-plus/lib/fs-plus.js"
+      },
+      {
+        "name": "fs.realpath",
+        "version": "1.0.0",
+        "path": "node_modules/fs.realpath/index.js"
+      },
+      {
+        "name": "fuzzaldrin",
+        "version": "2.1.0",
+        "path": "node_modules/fuzzaldrin/lib/fuzzaldrin.js"
+      },
+      {
+        "name": "glob",
+        "version": "7.1.2",
+        "path": "node_modules/glob/glob.js"
+      },
+      {
+        "name": "inflection",
+        "version": "1.12.0",
+        "path": "node_modules/inflection/lib/inflection.js"
+      },
+      {
+        "name": "inflight",
+        "version": "1.0.6",
+        "path": "node_modules/inflight/inflight.js"
+      },
+      {
+        "name": "inherits",
+        "version": "2.0.3",
+        "path": "node_modules/inherits/inherits.js"
+      },
+      {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "path": "node_modules/minimatch/minimatch.js"
+      },
+      {
+        "name": "minimist",
+        "version": "0.0.8",
+        "path": "node_modules/minimist/index.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.5.1",
+        "path": "node_modules/mkdirp/index.js"
+      },
+      {
+        "name": "once",
+        "version": "1.4.0",
+        "path": "node_modules/once/once.js"
+      },
+      {
+        "name": "path-is-absolute",
+        "version": "1.0.1",
+        "path": "node_modules/path-is-absolute/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.6.1",
+        "path": "node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.6.0",
+        "path": "node_modules/underscore/underscore.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.6.6",
+        "path": "node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "wrappy",
+        "version": "1.0.2",
+        "path": "node_modules/wrappy/wrappy.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib/main.js",
+        "lib/provider.js",
+        "lib/schema.js",
+        "lib/tables-view.js",
+        "lib/util.js",
+        "node_modules/async/dist/async.js",
+        "node_modules/async/dist/async.min.js",
+        "node_modules/async/lib/async.js",
+        "node_modules/atom-select-list/src/select-list-view.js",
+        "node_modules/balanced-match/index.js",
+        "node_modules/brace-expansion/index.js",
+        "node_modules/concat-map/example/map.js",
+        "node_modules/concat-map/index.js",
+        "node_modules/etch/dist/component-helpers.js",
+        "node_modules/etch/dist/default-scheduler.js",
+        "node_modules/etch/dist/dom.js",
+        "node_modules/etch/dist/event-listener-props.js",
+        "node_modules/etch/dist/index.js",
+        "node_modules/etch/dist/patch.js",
+        "node_modules/etch/dist/render.js",
+        "node_modules/etch/dist/scheduler-assignment.js",
+        "node_modules/etch/dist/svg-attribute-translations.js",
+        "node_modules/etch/dist/svg-tags.js",
+        "node_modules/etch/dist/update-props.js",
+        "node_modules/etch/lib/component-helpers.js",
+        "node_modules/etch/lib/default-scheduler.js",
+        "node_modules/etch/lib/dom.js",
+        "node_modules/etch/lib/event-listener-props.js",
+        "node_modules/etch/lib/index.js",
+        "node_modules/etch/lib/patch.js",
+        "node_modules/etch/lib/render.js",
+        "node_modules/etch/lib/scheduler-assignment.js",
+        "node_modules/etch/lib/svg-attribute-translations.js",
+        "node_modules/etch/lib/svg-tags.js",
+        "node_modules/etch/lib/update-props.js",
+        "node_modules/fs-plus/lib/fs-plus.js",
+        "node_modules/fs.realpath/index.js",
+        "node_modules/fs.realpath/old.js",
+        "node_modules/fuzzaldrin/lib/filter.js",
+        "node_modules/fuzzaldrin/lib/fuzzaldrin.js",
+        "node_modules/fuzzaldrin/lib/matcher.js",
+        "node_modules/fuzzaldrin/lib/scorer.js",
+        "node_modules/glob/common.js",
+        "node_modules/glob/glob.js",
+        "node_modules/glob/sync.js",
+        "node_modules/inflection/inflection.min.js",
+        "node_modules/inflection/lib/inflection.js",
+        "node_modules/inflight/inflight.js",
+        "node_modules/inherits/inherits.js",
+        "node_modules/inherits/inherits_browser.js",
+        "node_modules/minimatch/minimatch.js",
+        "node_modules/minimist/example/parse.js",
+        "node_modules/minimist/index.js",
+        "node_modules/mkdirp/bin/cmd.js",
+        "node_modules/mkdirp/examples/pow.js",
+        "node_modules/mkdirp/index.js",
+        "node_modules/once/once.js",
+        "node_modules/path-is-absolute/index.js",
+        "node_modules/rimraf/bin.js",
+        "node_modules/rimraf/rimraf.js",
+        "node_modules/underscore/underscore-min.js",
+        "node_modules/underscore/underscore.js",
+        "node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/wrappy/wrappy.js"
+      ],
+      ".json": [
+        "node_modules/async/package.json",
+        "node_modules/atom-select-list/package.json",
+        "node_modules/balanced-match/package.json",
+        "node_modules/brace-expansion/package.json",
+        "node_modules/concat-map/package.json",
+        "node_modules/etch/package.json",
+        "node_modules/fs-plus/package.json",
+        "node_modules/fs.realpath/package.json",
+        "node_modules/fuzzaldrin/package.json",
+        "node_modules/glob/package.json",
+        "node_modules/inflection/bower.json",
+        "node_modules/inflection/component.json",
+        "node_modules/inflection/package.json",
+        "node_modules/inflight/package.json",
+        "node_modules/inherits/package.json",
+        "node_modules/minimatch/package.json",
+        "node_modules/minimist/package.json",
+        "node_modules/mkdirp/package.json",
+        "node_modules/once/package.json",
+        "node_modules/path-is-absolute/package.json",
+        "node_modules/rimraf/package.json",
+        "node_modules/underscore/package.json",
+        "node_modules/underscore-plus/package.json",
+        "node_modules/wrappy/package.json",
+        "package-lock.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          ""
+        ],
+        "dependencies": {
+          "atom-select-list": "^0.2.0",
+          "fs-plus": "^3.0.0",
+          "inflection": "^1.12.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/atom-select-list",
+          "node_modules/atom-select-list/src",
+          "node_modules/atom-select-list/test"
+        ],
+        "dependencies": {
+          "etch": "^0.9.5",
+          "fuzzaldrin": "^2.1.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/brace-expansion"
+        ],
+        "dependencies": {
+          "balanced-match": "^1.0.0",
+          "concat-map": "0.0.1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/lib",
+          "node_modules/fs-plus"
+        ],
+        "dependencies": {
+          "async": "^1.5.2",
+          "mkdirp": "^0.5.1",
+          "rimraf": "^2.5.2",
+          "underscore-plus": "1.x"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/glob"
+        ],
+        "dependencies": {
+          "fs.realpath": "^1.0.0",
+          "inflight": "^1.0.4",
+          "inherits": "2",
+          "minimatch": "^3.0.4",
+          "once": "^1.3.0",
+          "path-is-absolute": "^1.0.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/inflight"
+        ],
+        "dependencies": {
+          "once": "^1.3.0",
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/minimatch"
+        ],
+        "dependencies": {
+          "brace-expansion": "^1.1.7"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/mkdirp/bin",
+          "node_modules/mkdirp/examples",
+          "node_modules/mkdirp",
+          "node_modules/mkdirp/test"
+        ],
+        "dependencies": {
+          "minimist": "0.0.8"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/once"
+        ],
+        "dependencies": {
+          "wrappy": "1"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/rimraf"
+        ],
+        "dependencies": {
+          "glob": "^7.0.5"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/underscore-plus/lib",
+          "node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "~1.6.0"
+        }
+      }
+    ]
+  }
+}

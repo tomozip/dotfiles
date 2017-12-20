@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117220-9497-10j4d6d/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117220-9497-10j4d6d/package.tgz",
+        "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117220-9497-10j4d6d/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117220-9497-1gv69y"
+    ]
+  ],
+  "_from": "../d-117220-9497-10j4d6d/package.tgz",
+  "_id": "rails-open-rspec@1.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/rails-open-rspec",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117220-9497-10j4d6d/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117220-9497-10j4d6d/package.tgz",
+    "spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117220-9497-10j4d6d/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117220-9497-10j4d6d/package.tgz",
+  "_shasum": "469ad4d444a08de023e9470d498bfc9dbb898351",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/d-117220-9497-10j4d6d/package.tgz",
+  "_where": "/private/var/folders/p3/p4p71m495t58wf3nplz7194m0000gn/T/apm-install-dir-117220-9497-1gv69y",
+  "activationCommands": {
+    "atom-workspace": [
+      "rails-open-rspec:open-rspec-file"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/harada4atsushi/rails-open-rspec/issues"
+  },
+  "configSchema": {
+    "splitPane": {
+      "description": "Open specs side by side with code.",
+      "type": "boolean",
+      "default": true,
+      "order": 1
+    }
+  },
+  "dependencies": {},
+  "description": "open rspec file by current file.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/harada4atsushi/rails-open-rspec#readme",
+  "license": "MIT",
+  "main": "./lib/rails-open-rspec",
+  "name": "rails-open-rspec",
+  "optionalDependencies": {},
+  "readme": "# Rails Open Rspec Package\n\n![Rails Open Rspec](https://raw.github.com/harada4atsushi/rails-open-rspec/master/rails-open-rspec.gif)\n\n## Installation\n```sh\napm install rails-open-rspec\n```\nor find it in the Packages tab under settings\n\n## Usage\n`option-cmd-o` or **Rails Open Rspec: Open Rspec File** in the Command Palette.\n\nOpen rspec file from current file to window split right.  \nIf current file is spec file, open production file to window split left.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harada4atsushi/rails-open-rspec.git"
+  },
+  "version": "1.2.0"
+}
