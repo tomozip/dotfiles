@@ -1,0 +1,91 @@
+#!/bin/zsh
+
+alias ls="ls -GF"
+alias ll='ls -lFG'
+alias l='ls -lFG'
+alias la='ls -lFGa'
+alias vi='vim'
+alias gs='git status'
+alias gd='dirs -v; echo -n "select number: "; read newdir; cd +"$newdir"'
+alias brake='bundle exec rake'
+alias rm='rm -i'
+alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
+alias cap2='cap _2.15.5_'
+alias relogin='exec $SHELL -l'
+
+####################
+#     Colorize     #
+####################
+## always
+# alias ls="exa -la"
+alias cat="ccat"
+alias gst='git status -sb'
+alias gds='git diff --stat'
+# ls (exa)
+# alias ls="exa"
+# alias la="exa -l"
+# alias l1="exa -1"
+# alias lll="exa -abghHliS --git"
+# git
+## カレントブランチ名を表示
+function git_current_branch_name()
+{
+   git branch | grep '^\*' | sed 's/^\* *//'
+}
+alias -g B='"$(git_current_branch_name)"'
+alias gi='git init'
+alias gd='git diff'
+alias gb='git branch'
+alias gbd="git branch | grep -v 'master' | xargs git branch -D"
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gcm='git checkout master'
+alias glg='git log --graph --name-status'
+alias gsta='git stash'
+alias gstal='git stash list'
+alias gstaa='git stash apply'
+alias gr='git reset HEAD'
+alias grh='git reset --hard HEAD^'
+alias ga='git add'
+alias gaa='git add .'
+alias gaap='git add -p'
+alias gc='git commit'
+alias gcmsg='git commit -m'
+alias gcam='git commit --amend'
+alias gl='git pull origin B'
+alias gp='git push origin B'
+alias gpom='git push origin master'
+alias gphm='git push heroku master'
+alias glom='git pull origin master'
+# tmux
+alias t='tmux'
+alias tl='tmux ls'
+alias ta='tmux a -t'
+alias tr='tmux rename -t'
+alias tk='tmux kill-session -t'
+# command
+# alias rm='rmtrash'
+# rails
+alias be='bundle exec'
+alias rake='bundle exec rake'
+alias rails='bundle exec rails'
+alias rspec='bundle exec rspec'
+alias be='bundle exec'
+alias bi='bundle install --path vendor/bundle --jobs=4'
+alias rdc='rake db:create'
+alias rdm='rake db:migrate'
+alias rdmt='rake db:migrate RAILS_ENV=test'
+alias rdd='rake db:drop'
+alias rds='rake db:seed'
+alias rdr='rake db:reset'
+alias rdmr='rake db:migrate:reset'
+alias rr='spring rake routes'
+alias rs='rails s'
+alias rs3='rails s -p 3003'
+alias rs4='rails s -p 4000'
+alias rs5='rails s -p 5000'
+alias rc='rails c'
+alias cat='pygmentize -g'
+fpath=(~/.zsh/completion $fpath)
+autoload -U compinit
+compinit -u

@@ -202,7 +202,7 @@
                         "key_code": "caps_lock"
                     },
                     "to": {
-                        "key_code": "left_control"
+                        "key_code": "right_control"
                     }
                 },
                 {
@@ -211,6 +211,14 @@
                     },
                     "to": {
                         "key_code": "escape"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "left_control"
+                    },
+                    "to": {
+                        "key_code": "caps_lock"
                     }
                 }
             ],
