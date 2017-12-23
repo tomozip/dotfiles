@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -e
+[ -n "$GOENV_DEBUG" ] && set -x
+
+program="${0##*/}"
+if [[ "$program" = "go"* ]]; then
+  for arg; do
+    case "$arg" in
+    -c* | -- ) break ;;
+    */* )
+      if [ -f "$arg" ]; then
+        export GOENV_FILE_ARG="$arg"
+        break
+      fi
+      ;;
+    esac
+  done
+fi
+
+export GOENV_ROOT="/Users/tomoki/.goenv"
+exec "/usr/local/Cellar/goenv/1.7.0/libexec/goenv" exec "$program" "$@"

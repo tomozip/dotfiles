@@ -2,19 +2,21 @@
 export LANG=ja_JP.UTF-8
 export EDITOR=/usr/local/bin/atom
 export PATH=/usr/local/bin:$PATH
-# export PATH=$HOME/.nodebrew/current/bin:$PATH
-# export PATH=$HOME/.rbenv/bin:$PATH
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$HOME/.rbenv/bin:$PATH
+export PATH=$HOME/.goenv/bin:$PATH
 # export PATH=$HOME/.exenv/bin:$PATH
 # export PYENV_ROOT=$HOME/.pyenv
 # export PATH=$PYENV_ROOT/bin:$PATH
 # export PATH=/usr/local/Cellar/git/2.15.1/share/git-core/contrib/diff-highlight:$PATH
-# if [ -x "`which go`" ]; then
-#   export GOROOT=`go env GOROOT`
-#   export GOPATH=$HOME/code/go-local
-#   export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-# fi
+if [ -x "`which go`" ]; then
+  export GOROOT=`go env GOROOT`
+  export GOPATH=$HOME/code/go
+  export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+fi
 # eval "$(exenv init - zsh)"
-# eval "$(rbenv init - zsh)"
+eval "$(rbenv init - zsh)"
+eval "$(goenv init - zsh)"
 # eval "$(pyenv init - zsh)"
 # Load Color
 autoload -Uz colors
@@ -130,7 +132,7 @@ function rprompt-git-current-branch {
   echo "%{$color%}$name%{$reset_color%} "
 }
 # PROMPT='%(?.%B%F{green}.%B%F{blue})%(?!U^ｪ^U ﾜﾝ < !UTｪTU ｸｩﾝ < )%f%b'
-PROMPT='%(?.%B%F{74}.%B%F{blue})%(?!( ੭ ˙ᗜ˙ )੭ < !(;^ω^%) < )%f%b'
+PROMPT='%(?.%B%F{74}.%B%F{blue})%(?!(੭ ˙∀˙ )੭ < !(;^ω^%) < )%f%b'
 RPROMPT='`rprompt-git-current-branch`%F{cyan}%~$f %F{white}[%*]%f'
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'

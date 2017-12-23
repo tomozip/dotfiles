@@ -67,6 +67,7 @@
       "imdone-atom"
       "linter-scss-lint"
       "docblockr"
+      "linter-golinter"
     ]
     packagesWithKeymapsDisabled: [
       "atom-minify"
@@ -98,6 +99,9 @@
   "git-plus":
     general:
       splitPane: "Right"
+  "go-plus":
+    config:
+      gopath: "/User/tomoki/code/go"
   "goto-definition": {}
   jshint:
     supportLintingJsx: true

@@ -3,105 +3,119 @@
     title: "Finc Store"
     group: "finc"
     paths: [
-      "/Users/tomokishimada/Services/finc_store"
+      "/Users/tomoki/repos/finc/finc_store"
     ]
   }
   {
     title: "Online Works"
     paths: [
-      "/Users/tomokishimada/Services/online_works"
+      "/Users/tomoki/repos/finc/online_works"
     ]
   }
   {
     title: "Form"
     group: "training"
     paths: [
-      "/Users/tomokishimada/training_projects/form"
+      "/Users/tomoki/repos/training_projects/form"
     ]
   }
   {
     title: "Smart Errand"
     group: "mafia"
     paths: [
-      "/Users/tomokishimada/my_prod/smart_errand"
+      "/Users/tomoki/repos/my_prod/smart_errand"
     ]
   }
   {
     title: "Playground"
     group: "test"
     paths: [
-      "/Users/tomokishimada/test/playground"
+      "/Users/tomoki/repos/test/playground"
     ]
   }
   {
     title: "Health Analysis"
     group: "finc"
     paths: [
-      "/Users/tomokishimada/Services/health_analysis"
+      "/Users/tomoki/repos/finc/health_analysis"
     ]
   }
   {
     title: "Try Media Client"
     group: "finc"
     paths: [
-      "/Users/tomokishimada/Services/try_media_client"
+      "/Users/tomoki/repos/finc/try_media_client"
     ]
   }
   {
     title: "React Training"
     group: "training"
     paths: [
-      "/Users/tomokishimada/dev/practice/react_training"
-      "/Users/tomokishimada/dev/hackathon/AutoSchedulerClient"
+      "/Users/tomoki/repos/dev/practice/react_training"
+      "/Users/tomoki/repos/dev/hackathon/AutoSchedulerClient"
     ]
   }
   {
     title: "Walking Events"
     group: "finc"
     paths: [
-      "/Users/tomokishimada/Services/walking_events"
+      "/Users/tomoki/repos/finc/walking_events"
     ]
   }
   {
     title: "Finc Point"
     group: "finc"
     paths: [
-      "/Users/tomokishimada/Services/finc_point"
+      "/Users/tomoki/repos/finc/finc_point"
     ]
   }
   {
     title: "Auto Scheduler Client"
     group: "hackathon"
     paths: [
-      "/Users/tomokishimada/dev/hackathon/AutoSchedulerClient"
+      "/Users/tomoki/repos/dev/hackathon/AutoSchedulerClient"
     ]
   }
   {
     title: "Finc App Web Client"
     group: "finc"
     paths: [
-      "/Users/tomokishimada/Services/finc_app_web_client"
+      "/Users/tomoki/repos/finc/finc_app_web_client"
     ]
   }
   {
     title: "Requl Mobile"
     group: "finc"
     paths: [
-      "/Users/tomokishimada/Services/requl_mobile"
+      "/Users/tomoki/repos/finc/requl_mobile"
     ]
   }
   {
     title: "Auto Scheduler Server"
     group: "hackathon"
     paths: [
-      "/Users/tomokishimada/dev/hackathon/AutoSchedulerServer"
+      "/Users/tomoki/repos/dev/hackathon/AutoSchedulerServer"
     ]
   }
   {
     title: "Fi Chat Client"
     group: "finc"
     paths: [
-      "/Users/tomokishimada/Services/FiChatClient"
+      "/Users/tomoki/repos/finc/FiChatClient"
+    ]
+  }
+  {
+    title: "Fever"
+    group: "asobika"
+    paths: [
+      "/Users/tomoki/repos/fever-master"
+    ]
+  }
+  {
+    title: "Play with Go!"
+    group: "test"
+    paths: [
+      "/Users/tomoki/code/go/src/test"
     ]
   }
 ]
